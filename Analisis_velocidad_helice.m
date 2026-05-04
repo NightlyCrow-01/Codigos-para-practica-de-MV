@@ -88,3 +88,10 @@ ylabel('T [kN]')
 legend('T hélice','T requerido','T turbofán')
 title('Empuje')
 grid on
+
+figure()
+plot(V_sol,T_helice./1000)
+xlabel('V [m/s]')
+ylabel('T [kN]')
+title('Gráfica T-V')
+grid on
